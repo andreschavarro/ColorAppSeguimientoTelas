@@ -1,0 +1,411 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Container1": 5,
+    "Container1_1": 6,
+    "Gallery3_1": 31,
+    "galleryTemplate3_1": 32,
+    "Host": 3,
+    "Label2_3": 52,
+    "Label3_48": 40,
+    "Label3_49": 41,
+    "Label3_50": 42,
+    "Label3_51": 43,
+    "Label3_53": 44,
+    "Label3_54": 45,
+    "Label3_55": 46,
+    "Label3_56": 47,
+    "Label3_57": 48,
+    "Label3_58": 49,
+    "Label3_59": 50,
+    "Label3_60": 51,
+    "Label3_61": 53,
+    "Label3_62": 54,
+    "Label3_63": 55,
+    "Label4_3": 39,
+    "Label5_10": 37,
+    "Label5_11": 38,
+    "Label5_9": 36,
+    "Label6_10": 34,
+    "Label6_11": 35,
+    "Label6_9": 33,
+    "Label7_50": 7,
+    "Label7_51": 8,
+    "Label7_52": 9,
+    "Label7_53": 10,
+    "Label7_54": 11,
+    "Label7_55": 12,
+    "Label7_56": 13,
+    "Label7_57": 14,
+    "Label7_58": 15,
+    "Label7_59": 16,
+    "Label7_60": 17,
+    "Label7_62": 18,
+    "Label7_63": 19,
+    "Label7_64": 20,
+    "Label7_65": 21,
+    "Label7_66": 22,
+    "Label7_67": 23,
+    "Label7_68": 24,
+    "Label7_69": 25,
+    "Label7_70": 26,
+    "Label7_71": 27,
+    "Label7_72": 28,
+    "Label7_73": 29,
+    "Label7_74": 30,
+    "PowerBIIntegration": 57,
+    "Screen2": 4,
+    "TextInput1_3": 56
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/03/2023 14:49:29",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "baa4ae6f-3f1f-484a-a0ab-09cae3a07cba": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/98c8019d8ab848e18e465ae10ed14df4\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0,
+    "Observaciones_tela": 1
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 2,
+    "groupContainer": 0,
+    "label": 1,
+    "text": 3
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Container1": {},
+    "Container1_1": {},
+    "Gallery3_1": {},
+    "galleryTemplate3_1": {},
+    "Host": {},
+    "Label2_3": {},
+    "Label3_48": {},
+    "Label3_49": {},
+    "Label3_50": {},
+    "Label3_51": {},
+    "Label3_53": {},
+    "Label3_54": {},
+    "Label3_55": {},
+    "Label3_56": {},
+    "Label3_57": {},
+    "Label3_58": {},
+    "Label3_59": {},
+    "Label3_60": {},
+    "Label3_61": {},
+    "Label3_62": {},
+    "Label3_63": {},
+    "Label4_3": {},
+    "Label5_10": {},
+    "Label5_11": {},
+    "Label5_9": {},
+    "Label6_10": {},
+    "Label6_11": {},
+    "Label6_9": {},
+    "Label7_50": {},
+    "Label7_51": {},
+    "Label7_52": {},
+    "Label7_53": {},
+    "Label7_54": {},
+    "Label7_55": {},
+    "Label7_56": {},
+    "Label7_57": {},
+    "Label7_58": {},
+    "Label7_59": {},
+    "Label7_60": {},
+    "Label7_62": {},
+    "Label7_63": {},
+    "Label7_64": {},
+    "Label7_65": {},
+    "Label7_66": {},
+    "Label7_67": {},
+    "Label7_68": {},
+    "Label7_69": {},
+    "Label7_70": {},
+    "Label7_71": {},
+    "Label7_72": {},
+    "Label7_73": {},
+    "Label7_74": {},
+    "PowerBIIntegration": {
+      "Data": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Table",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Año",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Centro",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Co_Referencia",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Color",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Descripcion_Tela",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Dias_Armado",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Dias_Ubicacion",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Dias_centro",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Día",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Grupo",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Maq_Tintoreria",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Mes",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "OP",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Obs_Maq_Tintoreria",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Obs_Pdp_Tintoreria",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Pedido",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Prio_Maq",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Ref_Tela",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Reposo_Corte",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "T_Pieza",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Tanda",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "TandaTela",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Tipo_orden",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Number",
+              "Name": "Total",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Trimestre",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Ubicacion",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "co_linea",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "critica",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "referencia",
+              "Type": []
+            }
+          ]
+        },
+        "Version": "1.334"
+      }
+    },
+    "Screen2": {},
+    "TextInput1_3": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {
+    "PowerBIIntegration": {}
+  },
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Container1": 0,
+    "Container1_1": 1,
+    "Gallery3_1": 26,
+    "galleryTemplate3_1": 27,
+    "Host": 0,
+    "Label2_3": 47,
+    "Label3_48": 35,
+    "Label3_49": 36,
+    "Label3_50": 37,
+    "Label3_51": 38,
+    "Label3_53": 39,
+    "Label3_54": 40,
+    "Label3_55": 41,
+    "Label3_56": 42,
+    "Label3_57": 43,
+    "Label3_58": 44,
+    "Label3_59": 45,
+    "Label3_60": 46,
+    "Label3_61": 48,
+    "Label3_62": 49,
+    "Label3_63": 50,
+    "Label4_3": 34,
+    "Label5_10": 32,
+    "Label5_11": 33,
+    "Label5_9": 31,
+    "Label6_10": 29,
+    "Label6_11": 30,
+    "Label6_9": 28,
+    "Label7_50": 2,
+    "Label7_51": 3,
+    "Label7_52": 4,
+    "Label7_53": 5,
+    "Label7_54": 6,
+    "Label7_55": 7,
+    "Label7_56": 8,
+    "Label7_57": 9,
+    "Label7_58": 10,
+    "Label7_59": 11,
+    "Label7_60": 12,
+    "Label7_62": 13,
+    "Label7_63": 14,
+    "Label7_64": 15,
+    "Label7_65": 16,
+    "Label7_66": 17,
+    "Label7_67": 18,
+    "Label7_68": 19,
+    "Label7_69": 20,
+    "Label7_70": 21,
+    "Label7_71": 22,
+    "Label7_72": 23,
+    "Label7_73": 24,
+    "Label7_74": 25,
+    "PowerBIIntegration": 0,
+    "Screen2": 0,
+    "TextInput1_3": 51
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.3142927,
+    "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "groupContainer": 2,
+      "hostControl": 1,
+      "label": 47,
+      "screen": 1,
+      "text": 1
+    },
+    "DeserializationLoadTime": 1.5486604
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}

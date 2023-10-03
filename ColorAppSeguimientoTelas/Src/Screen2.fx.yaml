@@ -1,0 +1,644 @@
+"Screen2 As screen.'printableLayout_A4Landscape_ver1.0'":
+    Height: =4000
+    Width: =12000
+
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =4000
+        Width: =12000
+        ZIndex: =1
+
+        Container1_1 As groupContainer.manualLayoutContainer:
+            Height: =4000
+            Width: =12000
+            ZIndex: =27
+
+            "Gallery3_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+                DelayItemLoading: =true
+                Height: =3555
+                Items: =PowerBIIntegration.Data
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =0
+                TemplateSize: =430
+                Width: =11050
+                Y: =445
+                ZIndex: =1
+
+                Label6_10 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Centro
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Centro
+                    Width: =226
+                    X: =724
+                    ZIndex: =7
+
+                Label6_9 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Centro
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.critica
+                    Width: =654
+                    X: =70
+                    ZIndex: =8
+
+                Label6_11 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Tipo_orden
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Tipo_orden
+                    Width: =300
+                    X: =950
+                    ZIndex: =9
+
+                Label5_9 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.referencia
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.referencia
+                    Width: =690
+                    X: =1250
+                    ZIndex: =10
+
+                Label5_10 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Dias_Armado
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Dias_Armado
+                    Width: =280
+                    X: =1940
+                    ZIndex: =11
+
+                Label3_49 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.OP
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.OP
+                    Width: =477
+                    X: =3280
+                    ZIndex: =12
+
+                Label3_48 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Grupo
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Grupo
+                    Width: =500
+                    X: =2780
+                    ZIndex: =13
+
+                Label4_3 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Dias_Ubicacion
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Dias_Ubicacion
+                    Width: =280
+                    X: =2500
+                    ZIndex: =14
+
+                Label5_11 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Dias_centro
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Dias_centro
+                    Tooltip: =
+                    Width: =280
+                    X: =2220
+                    ZIndex: =15
+
+                Label3_54 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Ubicacion
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Ubicacion
+                    Width: =621
+                    X: =5443
+                    ZIndex: =16
+
+                Label3_53 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Descripcion_Tela
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Descripcion_Tela
+                    Width: =1064
+                    X: =4379
+                    ZIndex: =17
+
+                Label3_51 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Color
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Color
+                    Width: =270
+                    X: =4107
+                    ZIndex: =19
+
+                Label3_50 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Tanda
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Tanda
+                    Width: =350
+                    X: =3757
+                    ZIndex: =20
+
+                TextInput1_3 As text:
+                    Default: |-
+                        =If(
+                            IsBlank(
+                                LookUp(
+                                    Observaciones_tela,
+                                    TandaTela = ThisItem.TandaTela
+                                ).Observaciones
+                            ),
+                            "",
+                            LookUp(
+                                Observaciones_tela,
+                                TandaTela = ThisItem.TandaTela
+                            ).Observaciones
+                        )
+                    Height: =430
+                    OnChange: |-
+                        =If(
+                            !IsBlank(TextInput1_3.Text),
+                            If(
+                                IsBlank(
+                                    LookUp(
+                                        Observaciones_tela,
+                                        TandaTela = ThisItem.TandaTela
+                                    ).Observaciones
+                                ),
+                                Patch(
+                                    Observaciones_tela,
+                                    Defaults(Observaciones_tela),
+                                    {
+                                        Observaciones: TextInput1_3.Text,
+                                        TandaTela: ThisItem.TandaTela
+                                    }
+                                ),
+                                Patch(
+                                    Observaciones_tela,
+                                    LookUp(
+                                        Observaciones_tela,
+                                        TandaTela = ThisItem.TandaTela
+                                    ),
+                                    {Observaciones: TextInput1_3.Text}
+                                )
+                            )
+                        )
+                    OnSelect: =
+                    PaddingLeft: =40
+                    Size: =65
+                    Tooltip: =
+                    Width: =1431
+                    X: =9577
+                    ZIndex: =22
+
+                Label3_63 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =Select(Parent)
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Total
+                    Width: =300
+                    X: =9277
+                    ZIndex: =24
+
+                Label3_62 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =Select(Parent)
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.T_Pieza
+                    Width: =280
+                    X: =8997
+                    ZIndex: =25
+
+                Label2_3 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =Select(Parent)
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Co_Referencia
+                    Width: =517
+                    X: =8234
+                    ZIndex: =26
+
+                Label3_61 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =Select(Parent)
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Reposo_Corte
+                    Width: =246
+                    X: =8751
+                    ZIndex: =27
+
+                Label3_60 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =Select(Parent)
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Pedido
+                    Width: =400
+                    X: =7834
+                    ZIndex: =28
+
+                Label3_59 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =Select(Parent)
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.co_linea
+                    Width: =280
+                    X: =7554
+                    ZIndex: =29
+
+                Label3_58 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Obs_Maq_Tintoreria
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Obs_Maq_Tintoreria
+                    Width: =247
+                    X: =7306
+                    ZIndex: =30
+
+                Label3_57 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Obs_Pdp_Tintoreria
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.TandaTela
+                    Width: =682
+                    X: =6624
+                    ZIndex: =31
+
+                Label3_56 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Prio_Maq
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Prio_Maq
+                    Width: =280
+                    X: =6344
+                    ZIndex: =32
+
+                Label3_55 As label:
+                    BorderThickness: =2
+                    Height: =430
+                    OnSelect: =ThisItem.Maq_Tintoreria
+                    PaddingLeft: =40
+                    Size: =60
+                    Text: =ThisItem.Maq_Tintoreria
+                    Width: =280
+                    X: =6064
+                    ZIndex: =33
+
+            Label7_50 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Crítica"
+                Width: =652
+                X: =66
+                Y: =145
+                ZIndex: =2
+
+            Label7_51 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Centro"
+                Width: =229
+                X: =718
+                Y: =145
+                ZIndex: =3
+
+            Label7_52 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Tipo_orden"
+                Width: =299
+                X: =948
+                Y: =145
+                ZIndex: =4
+
+            Label7_53 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Referencia"
+                Width: =692
+                X: =1247
+                Y: =145
+                ZIndex: =5
+
+            Label7_54 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =55
+                Text: ="Días armado"
+                Width: =280
+                X: =1939
+                Y: =145
+                ZIndex: =6
+
+            Label7_55 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =55
+                Text: ="Días centro"
+                Width: =280
+                X: =2219
+                Y: =145
+                ZIndex: =7
+
+            Label7_56 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =55
+                Text: ="Días ubiación"
+                Width: =280
+                X: =2500
+                Y: =145
+                ZIndex: =8
+
+            Label7_57 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Grupo"
+                Width: =500
+                X: =2780
+                Y: =145
+                ZIndex: =9
+
+            Label7_58 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="OP"
+                Width: =478
+                X: =3280
+                Y: =145
+                ZIndex: =10
+
+            Label7_59 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Tanda"
+                Width: =350
+                X: =3758
+                Y: =145
+                ZIndex: =11
+
+            Label7_60 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Color"
+                Width: =271
+                X: =4108
+                Y: =145
+                ZIndex: =12
+
+            Label7_62 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =60
+                Text: ="Descripcion_Tela"
+                Width: =1068
+                X: =4379
+                Y: =145
+                ZIndex: =14
+
+            Label7_63 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Ubicacion"
+                Width: =619
+                X: =5447
+                Y: =145
+                ZIndex: =15
+
+            Label7_64 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =55
+                Text: ="Maq_Tintoreria"
+                Width: =280
+                X: =6066
+                Y: =145
+                ZIndex: =16
+
+            Label7_65 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Prio_Maq"
+                Width: =280
+                X: =6346
+                Y: =145
+                ZIndex: =17
+
+            Label7_66 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =50
+                Text: ="TandaTela"
+                Width: =682
+                X: =6626
+                Y: =145
+                ZIndex: =18
+
+            Label7_67 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =50
+                Text: ="Obs_Maq_Tintoreria"
+                Width: =247
+                X: =7309
+                Y: =145
+                ZIndex: =19
+
+            Label7_68 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="co_linea"
+                Width: =280
+                X: =7556
+                Y: =145
+                ZIndex: =20
+
+            Label7_69 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Pedido"
+                Width: =400
+                X: =7836
+                Y: =145
+                ZIndex: =21
+
+            Label7_70 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Co_Referencia"
+                Width: =522
+                X: =8236
+                Y: =145
+                ZIndex: =22
+
+            Label7_71 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =60
+                Text: ="Reposo_Corte"
+                Width: =248
+                X: =8758
+                Y: =145
+                ZIndex: =23
+
+            Label7_72 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="T_Pieza"
+                Width: =280
+                X: =9006
+                Y: =145
+                ZIndex: =24
+
+            Label7_73 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Total"
+                Width: =300
+                X: =9286
+                Y: =145
+                ZIndex: =25
+
+            Label7_74 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(9, 33, 98, 1)
+                Fill: =RGBA(136, 160, 209, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =300
+                Size: =70
+                Text: ="Observacion"
+                Width: =1423
+                X: =9586
+                Y: =145
+                ZIndex: =26
+
