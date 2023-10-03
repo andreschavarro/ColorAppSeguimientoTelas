@@ -15,7 +15,7 @@
             "Gallery3_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
                 DelayItemLoading: =true
                 Height: =3555
-                Items: =PowerBIIntegration.Data
+                Items: =obser
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =0
@@ -41,7 +41,7 @@
                     OnSelect: =ThisItem.Centro
                     PaddingLeft: =40
                     Size: =60
-                    Text: =ThisItem.critica
+                    Text: =ThisItem.titulo
                     Width: =654
                     X: =70
                     ZIndex: =8
@@ -168,58 +168,6 @@
                     X: =3757
                     ZIndex: =20
 
-                TextInput1_3 As text:
-                    Default: |-
-                        =If(
-                            IsBlank(
-                                LookUp(
-                                    Observaciones_tela,
-                                    TandaTela = ThisItem.TandaTela
-                                ).Observaciones
-                            ),
-                            "",
-                            LookUp(
-                                Observaciones_tela,
-                                TandaTela = ThisItem.TandaTela
-                            ).Observaciones
-                        )
-                    Height: =430
-                    OnChange: |-
-                        =If(
-                            !IsBlank(TextInput1_3.Text),
-                            If(
-                                IsBlank(
-                                    LookUp(
-                                        Observaciones_tela,
-                                        TandaTela = ThisItem.TandaTela
-                                    ).Observaciones
-                                ),
-                                Patch(
-                                    Observaciones_tela,
-                                    Defaults(Observaciones_tela),
-                                    {
-                                        Observaciones: TextInput1_3.Text,
-                                        TandaTela: ThisItem.TandaTela
-                                    }
-                                ),
-                                Patch(
-                                    Observaciones_tela,
-                                    LookUp(
-                                        Observaciones_tela,
-                                        TandaTela = ThisItem.TandaTela
-                                    ),
-                                    {Observaciones: TextInput1_3.Text}
-                                )
-                            )
-                        )
-                    OnSelect: =
-                    PaddingLeft: =40
-                    Size: =65
-                    Tooltip: =
-                    Width: =1431
-                    X: =9577
-                    ZIndex: =22
-
                 Label3_63 As label:
                     BorderThickness: =2
                     Height: =430
@@ -329,6 +277,15 @@
                     Width: =280
                     X: =6064
                     ZIndex: =33
+
+                TextInput1 As text:
+                    Default: ="Entrada de texto"
+                    Height: =430
+                    OnSelect: =Select(Parent)
+                    Size: =70
+                    Width: =1514
+                    X: =9527
+                    ZIndex: =34
 
             Label7_50 As label:
                 Align: =Align.Center

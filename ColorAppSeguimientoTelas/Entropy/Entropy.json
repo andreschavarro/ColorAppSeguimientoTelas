@@ -57,14 +57,14 @@
     "Label7_74": 30,
     "PowerBIIntegration": 57,
     "Screen2": 4,
-    "TextInput1_3": 56
+    "TextInput1": 58
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/03/2023 14:49:29",
+  "HeaderLastSavedDateTimeUTC": "10/03/2023 15:37:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "baa4ae6f-3f1f-484a-a0ab-09cae3a07cba": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/98c8019d8ab848e18e465ae10ed14df4\""
+    "d79484ce-523d-466f-8c3a-0a7affce710a": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/98c8019d8ab848e18e465ae10ed14df4\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -73,7 +73,7 @@
   "OrderComponentTemplate": {},
   "OrderDataSource": {
     "CustomGallerySample": 0,
-    "Observaciones_tela": 1
+    "seg_Telas_DEV": 1
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -325,7 +325,7 @@
       }
     },
     "Screen2": {},
-    "TextInput1_3": {}
+    "TextInput1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {
     "PowerBIIntegration": {}
@@ -387,7 +387,7 @@
     "Label7_74": 25,
     "PowerBIIntegration": 0,
     "Screen2": 0,
-    "TextInput1_3": 51
+    "TextInput1": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0

@@ -14,6 +14,3126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "obser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "obser"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".titulo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Centro"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Centro"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Centro"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Tipo_orden"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Tipo_orden"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".referencia"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".referencia"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Dias_Armado"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Dias_Armado"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Dias_centro"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Dias_centro"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label5_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Dias_Ubicacion"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Dias_Ubicacion"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Grupo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Grupo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".OP"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".OP"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Tanda"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Tanda"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Color"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Color"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_51"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Descripcion_Tela"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Descripcion_Tela"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_53"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Ubicacion"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Ubicacion"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_54"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Maq_Tintoreria"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Maq_Tintoreria"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_55"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Prio_Maq"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Prio_Maq"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_56"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".TandaTela"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Obs_Pdp_Tintoreria"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_57"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Obs_Maq_Tintoreria"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Obs_Maq_Tintoreria"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_58"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_59.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_59.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_59"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_59.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_59.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".co_linea"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_59"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_60.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_60.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_60"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_60.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_60.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Pedido"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_60"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label2_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label2_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label2_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label2_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label2_3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Co_Referencia"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label2_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_61.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_61.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_61"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_61.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_61.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Reposo_Corte"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_61"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_62.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_62.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_62"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_62.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_62.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".T_Pieza"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_62"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_63.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_63.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_63"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_63.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label3_63.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Total"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label3_63"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen2"
                 }
               ],
@@ -36,7 +3156,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -66,7 +3186,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -96,67 +3216,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Screen2",
-                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.Container1.Container1_1.Gallery3_1.Label6_9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -186,7 +3246,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -216,7 +3276,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -246,7 +3306,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -276,7 +3336,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -306,7 +3366,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -336,7 +3396,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -366,7 +3426,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -396,7 +3456,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -426,7 +3486,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -456,7 +3516,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -486,7 +3546,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -516,7 +3576,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -546,7 +3606,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -576,7 +3636,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -606,7 +3666,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -636,7 +3696,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -666,7 +3726,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -696,7 +3756,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -726,7 +3786,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -756,7 +3816,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -786,7 +3846,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -816,7 +3876,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -846,7 +3906,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -876,7 +3936,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -906,7 +3966,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -936,7 +3996,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -966,7 +4026,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -996,7 +4056,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1026,7 +4086,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1056,7 +4116,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1086,7 +4146,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1116,26 +4176,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.TextInput1_3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.TextInput1_3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.Container1.Container1_1.Gallery3_1.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.Container1.Container1_1.Gallery3_1.TextInput1_3"
+                "type": "Screen2.Container1.Container1_1.Gallery3_1.TextInput1"
               }
             }
           ],
@@ -1146,7 +4206,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -1154,6 +4214,37 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-ReadableScreenNameNeeded",
               "messageStrings": {

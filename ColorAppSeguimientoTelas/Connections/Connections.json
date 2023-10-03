@@ -1,31 +1,24 @@
 {
-  "baa4ae6f-3f1f-484a-a0ab-09cae3a07cba": {
-    "appActions": [
-      "providers/PowerPlatform.Governance/Operations/Read",
-      "providers/PowerPlatform.Governance/Operations/Write"
-    ],
+  "d79484ce-523d-466f-8c3a-0a7affce710a": {
     "connectionRef": {
-      "apiTier": "Standard",
       "displayName": "SharePoint",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
-      "parameterHints": {},
-      "parameterHintsV2": {}
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
     },
     "datasets": {
       "https://grupocrystal.sharepoint.com/sites/Pruebas_IN": {
         "dataSources": {
-          "Observaciones_tela": {
-            "tableName": "cc31fe03-eaec-4c9c-8715-222554ef66bf"
+          "seg_Telas_DEV": {
+            "tableName": "791f71b8-c412-4696-8891-28f19bd985a1"
           }
         }
       }
     },
     "dataSources": [
-      "Observaciones_tela"
+      "seg_Telas_DEV"
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "baa4ae6f-3f1f-484a-a0ab-09cae3a07cba"
+    "id": "d79484ce-523d-466f-8c3a-0a7affce710a"
   }
 }
